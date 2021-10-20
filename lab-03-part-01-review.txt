@@ -15,15 +15,15 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
-
+cd ~
 
 ==========
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+$ pwd
+/c/Users/om7gv
 
 
 ==========
@@ -31,6 +31,44 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+drwxr-xr-x 1 om7gv 197609       0 May 10 2019 '3D Objects'/
+drwxr-xr-x 1 om7gv 197609       0 Mar 14  2019  ansel/
+drwxr-xr-x 1 om7gv 197609       0 Jun 19  2019  AppData/
+lrwxrwxrwx 1 om7gv 197609      30 Jun 19  2019 'Application Data' -> /c/Users/om7gv/AppData/Roaming/
+drwxr-xr-x 1 om7gv 197609       0 Jun 19  2019  Contacts/
+lrwxrwxrwx 1 om7gv 197609      58 Jun 19  2019  Cookies -> /c/Users/om7gv/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 om7gv 197609       0 Oct 19 22:58 'Creative Cloud Files'/
+drwxr-xr-x 1 om7gv 197609       0 Oct  5 00:42  Desktop/
+drwxr-xr-x 1 om7gv 197609       0 Mar 14  2019  Documents/
+drwxr-xr-x 1 om7gv 197609       0 Oct 19 14:03  Downloads/
+drwxr-xr-x 1 om7gv 197609       0 Jun 19  2020  Favorites/
+-rw-r--r-- 1 om7gv 197609   15407 Oct  3 05:40  google.html
+drwxr-xr-x 1 om7gv 197609       0 Jun 19  2020  Links/
+lrwxrwxrwx 1 om7gv 197609      28 Jun 19  2020 'Local Settings' -> /c/Users/om7gv/AppData/Local/
+drwxr-xr-x 1 om7gv 197609       0 Mar 14  2020  MicrosoftEdgeBackups/
+drwxr-xr-x 1 om7gv 197609       0 Sep 22 19:49  mtec1003/
+-rw-r--r-- 1 om7gv 197609  214495 Oct 13 18:45  mtec-1003-lab-03.tar.gz
+drwxr-xr-x 1 om7gv 197609       0 Aug  5 17:16  Music/
+lrwxrwxrwx 1 om7gv 197609      24 Jun 19  2020 'My Documents' -> /c/Users/om7gv/Documents/
+lrwxrwxrwx 1 om7gv 197609      66 Jun 19  2020  NetHood -> '/c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 om7gv 197609 8650752 Oct 19 14:20  NTUSER.DAT
+-rw-r--r-- 1 om7gv 197609  524288 Jun 19  2020  ntuser.dat.LOG1
+-rw-r--r-- 1 om7gv 197609 2207744 Jun 19  2020  ntuser.dat.LOG2
+-rw-r--r-- 1 om7gv 197609   65536 Jun 19  2020  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 om7gv 197609  524288 Jun 19  2020  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 om7gv 197609  524288 Jun 19  2020  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 om7gv 197609      20 Jun 19  2020  ntuser.ini
+drwxr-xr-x 1 om7gv 197609       0 Jul 30 17:23  OneDrive/
+lrwxrwxrwx 1 om7gv 197609      66 Feb 8 2019  PrintHood -> '/c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 om7gv 197609      55 Feb 8 2019  Recent -> /c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 om7gv 197609       0 May 28 23:32 'Saved Games'/
+drwxr-xr-x 1 om7gv 197609       0 Apr 7 2019  Searches/
+lrwxrwxrwx 1 om7gv 197609      55 Feb 8  2019  SendTo -> /c/Users/om7gv/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 om7gv 197609      59 Feb 8  2019 'Start Menu' -> '/c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Start Menu'/
+drwxr-xr-x 1 om7gv 197609       0 Oct  3 05:52  stuff/
+lrwxrwxrwx 1 om7gv 197609      58 Feb 19 2019  Templates -> /c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 om7gv 197609       0 Oct 19 22:58  Videos/
+
 
 
 
