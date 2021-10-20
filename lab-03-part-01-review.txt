@@ -103,17 +103,25 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
+curl -o mtec1003-lab-03.tar.gz. https://citytech.s3.amazonaws.com/mtec-1003-lab-03.tar.gz
+ls
 
-
+'3D Objects'/             Documents/           lab2.gz            mtec1003-lab-02/         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                                                                                'Saved Games'/   stuff3.tar.gz ansel/                   Downloads/           lab2.tar           mtec1003-lab-03.tar.gz   NTUSER.DAT{53b39e88-18c4-11ea-a811000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/       stuff4/
+ AppData/                   lab2.tar.gz        Music/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@         Templates@
+'Application Data'@       Favorites/           lab2.txt.gz       'My Documents'@           ntuser.ini                                                                                    'Start Menu'@    Videos/
+ Contacts/                filename.txt         lab2.txt.tar       NetHood@                 OneDrive/                                                                                      stuff/
+ Cookies@                 hello.txt            lab2p              NTUSER.DAT               Pictures/                                                                                      stuff.tar
+'Creative Cloud Files'/         Links/             ntuser.dat.LOG1          PrintHood@                                                                                     stuff2/
+ Desktop/                 lab2/               'Local Settings'@   ntuser.dat.LOG2          Recent@
 
 ==========
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
-
+$ gunzip mtec-1003-lab-03.tar.gz 
+gzip: mtec-1003-lab-03.tar already exists; do you wish to overwrite (y or n)? y
+$ tar -xvf mtec-1003-lab-03.tar
 ==========
 8.  You should now have a directory called mtec-1003-lab-03 in your home directory.  Verify that this directory exists.
 
@@ -126,15 +134,27 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+$cd ~. Then, $mkdir mtec1003-lab-03. And I did $ls.
 
-
-
+Output:
+'3D Objects'/             Documents/           lab2.gz            mtec1003-lab-02/         ntuser.dat.LOG2                                                                                Recent@         stuff3/
+ ansel/                   Downloads/           lab2.tar           mtec1003-lab-03/         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/   stuff3.tar.gz
+ AppData/                    lab2.tar.gz        mtec1003-lab-03.tar.gz   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/       stuff4/
+'Application Data'@       Favorites/           lab2.txt.gz        Music/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@         Templates@
+ Contacts/                filename.txt         lab2.txt.tar      'My Documents'@           ntuser.ini                                                                                    'Start Menu'@    Videos/
+ Cookies@                 hello.txt            lab2p              NetHood@                 OneDrive/                                                                                      stuff/
+'Creative Cloud Files'/         Links/             NTUSER.DAT               Pictures/                                                                                      stuff.tar
+ Desktop/                 lab2/               'Local Settings'@   ntuser.dat.LOG1          PrintHood@
 ==========
 9.  What directories are in the mtec-1003-lab-03 folder?
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+$ ls -l mtec-1003-lab-03
+total 30
+drwxr-xr-x 1 om7gv 197609 0 Oct 13 14:45 books/
+drwxr-xr-x 1 om7gv 197609 0 Oct 13 14:45 logs/
+drwxr-xr-x 1 om7gv 197609 0 Oct 13 14:45 web/
 
 
 ==========
@@ -142,29 +162,30 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
+$ cd mtec-1003-lab-03/books/science-fiction
 
 ==========
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+$ ls -l
+total 1104
+-rw-r--r-- 1 om7gv 197609 448685 Feb  6  2013 pg84.txt
+-rw-r--r-- 1 om7gv 197609 676440 Feb  6  2013 pg86.txt
 
 ==========
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
 ----------
-
+$ cd /c/Users/om7gv/mtec-1003-lab-03/books/science-fiction
 ==========
 13. Immediately change back to the mtec-1003-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd ../..
 
 
 ==========
@@ -172,7 +193,7 @@ Write the command(s) that you used to do this below:
 
 Write the command(s) that you used to do this below:
 ----------
-
+$ ls -tl
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz) (tar, gzip)
 
